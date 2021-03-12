@@ -19,7 +19,8 @@ const ProjectLayout = ({title, image, description, url}) => {
             // <article className='product'>
             <article className='cocktail'>
             <div className='img-container'>
-                <img src= {img} alt={title} />
+                <a href={url} ><img src= {image || img} alt={title} /></a>
+                
                 {/* <Link to={url} className="btn btn-primary product-link"> details</Link> */}
                 </div>
                 <div className='product-footer'>

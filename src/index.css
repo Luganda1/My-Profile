@@ -337,7 +337,7 @@ a {
 .search-errors {
   font-size: 2rem;
   text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
+  /* letter-spacing: var(--mainSpacing); */
   text-align: center;
   margin-bottom: 3.5rem;
   margin-top: 1rem;
@@ -384,7 +384,7 @@ a {
 }
 
 .cocktail:hover img {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 .cocktail-link {
   position: absolute;
@@ -400,22 +400,24 @@ a {
 .product-footer {
   padding: 0rem 1rem 1rem 1rem;
   text-align: center;
-  letter-spacing: var(--mainSpacing);
+  /* letter-spacing: var(--mainSpacing); */
   display: grid;
   grid-template-rows: 1fr auto;
 }
 .product-title {
-  font-family: var(--primaryFont1);
+  font-family: var(--primaryFont);
   text-transform: capitalize;
   font-weight: 700;
   font-size: 1rem;
   margin-bottom: 0.5rem;
+  letter-spacing: 1px;
 }
 .description {
-  font-family: var(--primaryFont1);
+  font-family: var(--primaryFont);
   font-weight: 500;
   font-size: .9rem;
   margin-bottom: 0.5rem;
+  letter-spacing: .2em;
 }
 
 
@@ -539,25 +541,3 @@ Cocktail
   width: fit-content;
   border-radius: var(--mainBorderRadius);
 }
-/* .cocktail:hover {
-  box-shadow: var(--darkShadow);
-}
-.cocktail img {
-  border-top-left-radius: var(--mainBorderRadius);
-  border-top-right-radius: var(--mainBorderRadius);
-}
-.cocktail-footer {
-  padding: 1.5rem;
-}
-.cocktail-footer h3,
-.cocktail-footer h4,
-.cocktail-footer p {
-  margin-bottom: 0.3rem;
-}
-.cocktail-footer h3 {
-  font-size: 2.2rem;
-}
-.cocktail-footer p {
-  color: var(--darkGrey);
-  margin-bottom: 0.5rem;
-} */
