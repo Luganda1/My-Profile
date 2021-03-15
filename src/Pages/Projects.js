@@ -1,6 +1,6 @@
 import React, {useState, useEffect}from 'react'
 import { Parallax } from 'react-parallax'
-import cover from '../image/cover1.jpg'
+import cover from '../image/city1.jpg'
 import items from '../components/LocalData'
 import ProjectLayout from '../components/ProjectLayout'
 import Loading from '../components/Loading'
@@ -13,7 +13,7 @@ const inlineStyle = {
     top: '50%',
     left: '50%',
     color: '#042a2bff',
-    color: '#fff',
+    // color: '#fff',
     padding: '15px',
     transform: 'translate(-50%, -50%)',
     cursor: 'pointer',
@@ -52,6 +52,7 @@ export default function Projects() {
         else {
         return (
             <>
+            <div className="wrapper">
                 <Parallax 
                     bgImage={cover} 
                     strength={500}
@@ -62,10 +63,11 @@ export default function Projects() {
                             <div
                             style={{
                             position: 'absolute',
-                            width: '35px',
-                            height: '35px',
-                            borderRadius: '50%',
-                            background: `rgba(200, 255, 0, ${percentage * .3})`,
+                            width: '80px',
+                            height: '20px',
+                            // borderRadius: '50%',
+                            // background: `rgba(200, 255, 0, ${percentage * .3})`,
+                            background: `rgba(255, 255, 255, ${percentage * .9})`,
                             left: '50%',
                             top: '50%',
                             transform: `translate(-50%, -50%) scale(${percentage * 5})`,
@@ -76,14 +78,14 @@ export default function Projects() {
                     }
                     >
                     <div style={{height: '400px'}}>
-                        <div style={inlineStyle} className='welcome'>Exclusive</div>                  
+                        <div style={inlineStyle} className='welcome'>MY PROJECTS</div>                  
                     </div>
                 </Parallax>
                 {/* <div style={{margin: '20px'}}><h1>|  |  |</h1></div> */}
                 {/* <div style={{height:'100vh'}}></div> */}
 
                 <section className="section">
-                <h2 className='section-title'>Projects</h2>
+                {/* <h2 className='section-title'>Projects</h2> */}
                 <div className='cocktails-center'>
                     {/* {projects.map((item) => { */}
                     {items.map(item => {
@@ -91,6 +93,7 @@ export default function Projects() {
                     })}
                 </div>
                 </section>
+                </div>
             </>
 
         )

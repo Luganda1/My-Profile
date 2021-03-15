@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Monda:wght@400;700&display=swap');
 :root{
   /* CSS HEX */
 --charcoal: #2f4858ff;
@@ -35,11 +36,12 @@
 --light-cyan: hsla(193, 69%, 88%, 1);
 --mandarin: hsla(19, 84%, 60%, 1);
 --vermilion: hsla(11, 69%, 50%, 1);
+/* --primary-font: 'Francois One', 'Serif Sans'; */
 --primary-font: 'Montserrat', 'Serif Sans';
 
 --primaryColor: #f15025;
 --primaryDarkColor: #c02c03;
---primaryFont: 'Dosis', sans-serif;
+/* --primaryFont: 'Dosis', sans-serif; */
 --primaryFont1: 'Rubik', sans-serif;
 --slantedFont: "Kaushan Script", cursive;
 --mainWhite: #fff;
@@ -156,35 +158,34 @@
   .bio {
     width: 100%;
     height: auto;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)),url(./image/bcg1.jpg) center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)),url(./image/backgound.jpg) center no-repeat;
     background-size: cover;
     /* margin-left: 280px; */
     /* margin-right: auto;
     margin-left: auto; */
+    display:flex;
 }
 
-    /* .bio-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      vertical-align: auto;
-    } */
-
+ 
 
 .title-container {
-  font: 'Montserrat';
+  /* font: 'Montserrat'; */
   position: relative;
   --maskX: 0;
   --maskY: 50;
   padding-bottom: 50px;
 
 }
-.titleContainer h1 {
-  font-family: 'Montserrat', 'Serif Sans';
-  font-weight: 500;
-  font-size: 50px;
-  margin-left: 140px;
+.titleContainer h2 {
+  font-family: 'monda', 'Serif Sans';
+  /* font-family: var(--primary-font1); */
+  font-size: 30px;
+  font-weight: 700;
+  width: 800px;
+  margin-left: 150px;
   line-height: 1.1em;
+  text-align: center;
+  margin-bottom: 40px;
 
 }
 
@@ -204,24 +205,25 @@
   transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
   clip-path: polygon(0 0, calc(var(--maskX) * 1% + (var(--maskY) - 50) * .4%) 0, calc(var(--maskX) * 1% + (var(--maskY) - 50) * -.4%) 100%, 0 100%); }
 
-  /* about me */
-  .about {
-    width: 780px;
-    padding: 20px;
-    padding-top: 50px;
-    margin: 0px 50px 50px 50px;
-  }
-  .about p {
 
-    text-align: center;
-    align-items: center;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 30px;
-    }
-  
+    .arrow {
+      font-size: 30px;
+      margin-left: 55%;
+      margin-top: 20px;
+      animation: anim 3s infinite;
+      color: #fff;
+  }
+
+  @keyframes anim {
+    0% {transform: translateY(0)}
+    20% {transform: translateY(0)}
+    40% {transform: translateY(-30px)}
+    50% {transform: translateY(0)}
+    60% {transform: translateY(-15px)}
+    80% {transform: translateY(0)}
+    100% {transform: translateY(0)}
+}
+
 /* Button css  */
 button {
   align-content: center;
@@ -241,8 +243,8 @@ a {
 
 .cta {
   position: relative;
-  margin-left: 350px;
-  padding: 19px 22px;
+  margin-left: 450px;
+  padding: 19px 6px;
   transition: all 0.2s ease;
 }
 .cta:before {
@@ -261,17 +263,16 @@ a {
   position: relative;
   font-size: 16px;
   line-height: 18px;
-  font-family: var(--primary-font);
+  font-family: 'monda', 'Serif Sans';
   font-weight: 400;
   color: var(--grey);
   letter-spacing: 0.25em;
   text-transform: uppercase;
   vertical-align: middle;
 }
-.cta svg {
+/* .cta svg {
   position: relative;
   top: 0;
-  /* align-items: center; */
   margin-left: 10px;
   fill: none;
   stroke-linecap: round;
@@ -280,7 +281,7 @@ a {
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
-}
+} */
 
 .cta:hover:before {
   width: 100%;
@@ -296,9 +297,14 @@ a {
 
 
 /* PARALLAX */
-
+.wrapper {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .1)),url(./image/geometrics.jpg) center no-repeat;
+  background-size: cover;
+}
 .welcome {
-  font-family: 'Dancing Script';
+  /* font-family: 'Dancing Script'; */
   font-size: 3em;
   font-weight: 900;
 }

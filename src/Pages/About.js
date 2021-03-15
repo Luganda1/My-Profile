@@ -43,6 +43,7 @@ import React from 'react';
 import 'materialize-css';
 import Button from "../components/Button"
 import {Link} from 'react-router-dom'
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 class About extends React.Component {
     constructor(props) {
@@ -90,18 +91,19 @@ class About extends React.Component {
             >               
                 
                     <div className="titleWrapper">
-                        <h1>Hello! I'm <strong>Tonny Luganda </strong></h1>
+                        <h2>Hi! I'm Tonny Luganda, a self taught full-stack developer, passionate about building excellent UX/UI
+                    React application that transforms the lives of those around me. </h2>
                     </div>
                     <div className="cloneWrapper">
-                        <h1>Hello! I'm <strong>Tonny Luganda </strong> </h1>
+                    <h2>Hi! I'm Tonny Luganda, a self taught full-stack developer, passionate about building excellent UX/UI
+                    React application that transforms the lives of those around me. </h2>
                     </div>
                 </div>
 
                 <div className="about">
-                    <p>
-                    I am a self taught full-stack developer, passionate about building excellent UX/UI
-                    React application that transforms the lives of those around me.
-                    </p>
+                <div class="arrow">
+                    <AiOutlineArrowDown/>
+                </div>
                     {/*  I use a creative 
                     approach to problem solve, always energetic and eager to learn new skills. */}
                 </div>
