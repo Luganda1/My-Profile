@@ -4,7 +4,7 @@ import * as AiIcons from "react-icons/ai";
 import {IconContext} from 'react-icons'
 import {Link} from 'react-router-dom'
 import {Data} from './Data';
-import marc from  '../image/marc.jpg'
+import marc from  '../image/tonny.jpg'
 
 export default function SideBar() {
     const [sidebar, setSidebar] = useState(false)

@@ -5,10 +5,18 @@ import BottomNavigationAction from '@material-ui/core/BottomNavigationAction';
 import RestoreIcon from '@material-ui/icons/Restore';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import * as FaIcons from 'react-icons/fa'
+import * as AiIcons from "react-icons/ai";
+import {IconContext} from 'react-icons'
+import { colors } from '@material-ui/core';
 
 const useStyles = makeStyles({
     root: {
-    width: 2000,
+    width: "100%",
+    left: 0,
+    bottom: 0,
+    fontSize: '30px',
+    colors: "#042a2bff",
     },
     });
 
@@ -23,12 +31,24 @@ const useStyles = makeStyles({
         setValue(newValue);
         }}
         showLabels
-        className={classes.root}
+        // className={classes.root}
+        className='footers'
     >
-        <BottomNavigationAction label="Recents" icon={<RestoreIcon />} />
-        <BottomNavigationAction label="Favorites" icon={<FavoriteIcon />} />
-        <BottomNavigationAction label="Nearby" icon={<LocationOnIcon />} />
+        <BottomNavigationAction  href="#" icon={<AiIcons.AiOutlineInstagram/>} />
+        <BottomNavigationAction  href="#" icon={<AiIcons.AiFillLinkedin/>} />
+        <BottomNavigationAction  href="#" icon={<AiIcons.AiFillFacebook/>} />
+        <BottomNavigationAction  href="#" icon={<AiIcons.AiFillRedditCircle/>} />
+        <BottomNavigationAction  href="#" icon={<AiIcons.AiOutlineGithub/>} />
+
     </BottomNavigation>
     );
     }
 
+
+    /**
+label="instagram"
+label="linked"
+label="facebook"
+label="reddit"
+label="github"
+     */

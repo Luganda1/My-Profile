@@ -1,41 +1,4 @@
 
-// import { Container } from "@material-ui/core";
-// import {React, useState, useEffect } from "react";
-
-// export default function Bio() {
-
-//function to capture mouse position
-//     const useMousePosition = () => {
-//     const [mousePosition, setMousePosition] = useState({ x: null, y: null });
-
-//     const updateMousePosition = ev => {
-//         setMousePosition({ x: ev.clientX, y: ev.clientY });
-//     };
-
-//     useEffect(() => {
-//         window.addEventListener("mousemove", updateMousePosition);
-
-//         return () => window.removeEventListener("mousemove", updateMousePosition);
-//     }, []);
-
-//     return mousePosition;
-//     };
-
-
-//     return (
-//         <div className="bio">
-//         <div className="titleContainer" onMouseMove={_onMouseMove} refs="titleContainer">
-//             <div className="titleWrapper">
-//                 <h1>WELCOME! I'M <span>TONNY LUGANDA</span> </h1>
-//             </div>
-//             <div className="cloneWrapper">
-//                 <h1>WELCOME! I'M <span>TONNY LUGANDA</span> </h1>
-//             </div>
-//         </div>
-//         </div>
-//     )
-// }
-
 
 
 import React from 'react';
@@ -44,6 +7,7 @@ import 'materialize-css';
 import Button from "../components/Button"
 import {Link} from 'react-router-dom'
 import { AiOutlineArrowDown } from "react-icons/ai";
+import NavbarTop from "../components/NavbarTop"
 
 class About extends React.Component {
     constructor(props) {
@@ -81,6 +45,7 @@ class About extends React.Component {
             '--maskY': y
         }
         return (
+            <>
             <div className="bio" >
             <div className="bio-container">
             <div className="titleContainer"
@@ -112,8 +77,10 @@ class About extends React.Component {
                 </Link>
             </div>
             </div>
-            
-
+            <div className="footerbtm">
+                <NavbarTop/>
+            </div>
+        </>
         )
     }
 }

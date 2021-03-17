@@ -24,11 +24,11 @@ export const Data = [
         icon: <MdIcons.MdLibraryBooks/>,
         className: 'nav-text'
     },
-    {
-        title: "Blog",
-        path: '/blog',
-        icon: <FaIcons.FaBlogger/>,
-        className: 'nav-text'
-    },
+    // {
+    //     title: "Blog",
+    //     path: '/blog',
+    //     icon: <FaIcons.FaBlogger/>,
+    //     className: 'nav-text'
+    // },
 
 ]
