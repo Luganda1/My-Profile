@@ -181,17 +181,18 @@
   /* font-family: var(--primary-font1); */
   font-size: 30px;
   font-weight: 700;
-  width: 800px;
+  width: 900px;
   margin-left: 150px;
   line-height: 1.1em;
   text-align: center;
   margin-bottom: 40px;
+  letter-spacing: 1px;
 
 }
 
 .titleWrapper  {
   position: absolute;
-  color: var(--grey);
+  color: #fff;
   cursor: pointer;
 }
 
@@ -209,7 +210,7 @@
     .arrow {
       font-size: 30px;
       margin-left: 55%;
-      margin-top: 20px;
+      margin-top: 50px;
       animation: anim 3s infinite;
       color: #fff;
   }
@@ -243,9 +244,13 @@ a {
 
 .cta {
   position: relative;
-  margin-left: 450px;
+  margin-top: 20px;
+  margin-left: 490px;
   padding: 19px 6px;
   transition: all 0.2s ease;
+display: flex;
+justify-content: left;
+align-items: center;
 }
 .cta:before {
   content: "";
@@ -486,42 +491,87 @@ a {
 
 /* RESPONSIVENESS */
 
-@media  screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 400px) {
   .bio {
     width: 100%;
     height: auto;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)),url(./image/bcg3.jpg) center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)),url(./image/backgound.jpg) center no-repeat;
     background-size: cover;
 
 }
-  .titleContainer h1 {
-    font-family: 'Montserrat', 'Serif Sans';
-    font-weight: 300;
-    font-size: 30px;
-    margin-left: 50px;
-    /* z-index: -1; */
-  }
-  .about {
-    width: 350px;
+.titleContainer h2 {
+  font-family: 'monda', 'Serif Sans';
+  /* font-family: var(--primary-font1); */
+  font-size: 18px;
+  font-weight: 200;
+  width: 290x;
+  margin-left: 65px;
+  line-height: 1.1em;
+  text-align: center;
+  margin-bottom: 40px;
 
-  }
-    .about p {
-
-    text-align: center;
-    align-items: center;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-size: 18px;
-
-    }
+}
+.arrow {
+  font-size: 30px;
+  margin-left: 50%;
+  margin-top: 50px;
+  animation: anim 3s infinite;
+  color: #fff;
+}
+ 
   .cta {
     position: relative;
-    margin-left: 150px;
-    padding: 19px 22px;
+    margin-left: 90px;
+    padding: 19px 15px;
     transition: all 0.2s ease;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .bio {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)),url(./image/backgound.jpg) center no-repeat;
+    background-size: cover;
+
+}
+.titleContainer h2 {
+  font-family: 'monda', 'Serif Sans';
+  /* font-family: var(--primary-font1); */
+  font-size: 20px;
+  font-weight: 400;
+  width: 550px;
+  margin-left: 5px;
+  line-height: 1.1em;
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+.arrow {
+  font-size: 30px;
+  margin-left: 50%;
+  margin-top: 50px;
+  animation: anim 3s infinite;
+  color: #fff;
+}
+ 
+  .cta {
+    position: relative;
+    margin-left: 210px;
+    padding: 19px 15px;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  
+  }
+}
 /*
 ====== 
 Cocktail 
