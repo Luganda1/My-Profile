@@ -63,7 +63,7 @@ export default function Projects() {
                             <div
                             style={{
                             position: 'absolute',
-                            width: '80px',
+                            width: '70px',
                             height: '20px',
                             // borderRadius: '50%',
                             // background: `rgba(200, 255, 0, ${percentage * .3})`,
@@ -78,7 +78,7 @@ export default function Projects() {
                     }
                     >
                     <div style={{height: '400px'}}>
-                        <div style={inlineStyle} className='welcome'>MY PROJECTS</div>                  
+                        <div style={inlineStyle} className='welcome'>My Projects</div>                  
                     </div>
                 </Parallax>
 

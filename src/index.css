@@ -309,7 +309,8 @@ align-items: center;
   background-size: cover;
 }
 .welcome {
-  /* font-family: 'Dancing Script'; */
+  font-family: 'monda';
+  text-transform: capitalize;
   font-size: 3em;
   font-weight: 900;
 }
@@ -532,7 +533,12 @@ Cocktail
   
     }
     .cocktails-center {
-      margin-left: 60px;
+      margin-left: 30px;
+    }
+    .welcome {
+      font-family: 'monda';
+      font-size: 1.6em;
+      font-weight: 500;
     }
   }
 
@@ -558,9 +564,7 @@ Cocktail
     margin-left: 210px;
 
   }
-  .cocktails-center {
-    margin-left: 60px;
-  }
+
 }
 @media screen and (min-width: 968px) {
 
@@ -582,9 +586,7 @@ Cocktail
     margin-left: 360px;
 
   }
-  .cocktails-center {
-    margin-left: 60px;
-  }
+
 }
 @media screen and (min-width: 1500px) {
 
@@ -606,9 +608,7 @@ Cocktail
     margin-left: 600px;
 
   }
-  .cocktails-center {
-    margin-left: 60px;
-  }
+
 }
 
 

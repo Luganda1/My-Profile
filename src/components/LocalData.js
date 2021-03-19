@@ -14,11 +14,11 @@
         "description": "Reactjs, SCSS, Auth0 ",
         },
         {
-        "id": "3",
-        "title": "Cocktail ",
-        "image": "/cocktail1.jpg",
-        "url": "https://react-hooks-cocktail-project-1111.netlify.app",
-        "description": "Reactjs, SCSS ",
+            "id": "3",
+            "title": "Team Profile",
+            "image": "profil1.jpg",
+            "url": "https://my-profile-card-1111.netlify.app",
+            "description": "HTML, CSS, Java Script",
         },
         {
         "id": "4",
@@ -49,12 +49,12 @@
         "description": "HTML, CSS, Java Script",
         },
         {
-        "id": "8",
-        "title": "Team Profile",
-        "image": "profil1.jpg",
-        "url": "https://my-profile-card-1111.netlify.app",
-        "description": "HTML, CSS, Java Script",
-        },
+            "id": "8",
+            "title": "Cocktail ",
+            "image": "/cocktail1.jpg",
+            "url": "https://react-hooks-cocktail-project-1111.netlify.app",
+            "description": "Reactjs, SCSS ",
+            },
         {
         "id": "9",
         "title": "To Do List",
@@ -62,5 +62,6 @@
         "url": "https://react-todo-list-1111.netlify.app",
         "description": "Reactjs",
         },
+        
     ];
     
