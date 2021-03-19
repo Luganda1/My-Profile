@@ -81,13 +81,9 @@ export default function Projects() {
                         <div style={inlineStyle} className='welcome'>MY PROJECTS</div>                  
                     </div>
                 </Parallax>
-                {/* <div style={{margin: '20px'}}><h1>|  |  |</h1></div> */}
-                {/* <div style={{height:'100vh'}}></div> */}
 
                 <section className="section">
-                {/* <h2 className='section-title'>Projects</h2> */}
                 <div className='cocktails-center'>
-                    {/* {projects.map((item) => { */}
                     {items.map(item => {
                     return <ProjectLayout key={item.id} {...item} />
                     })}

@@ -39,11 +39,11 @@ export default function SideBar() {
                         })
                     }
                 <div className="social-icons">
-                    <a href="#" className="insta"><AiIcons.AiOutlineInstagram/></a>
-                    <a href="#" className="linked"><AiIcons.AiFillLinkedin/></a>
-                    <a href="#" className="facebook"><AiIcons.AiFillFacebook/></a>
-                    <a href="#" className="reddit"><AiIcons.AiFillRedditCircle/></a>
-                    <a href="#" className="github"><AiIcons.AiOutlineGithub/></a>
+                    <a href="https://www.instagram.com/t.lugan/" className="insta"><AiIcons.AiOutlineInstagram/></a>
+                    <a href="https://www.linkedin.com/in/tonny-luganda-7087b451/" className="linked"><AiIcons.AiFillLinkedin/></a>
+                    <a href="https://www.facebook.com/tluganda" className="facebook"><AiIcons.AiFillFacebook/></a>
+                    <a href="https://www.reddit.com/tonnytonny1" className="reddit"><AiIcons.AiFillRedditCircle/></a>
+                    <a href="https://github.com/Luganda1" className="github"><AiIcons.AiOutlineGithub/></a>
                 </div>
                 </ul>
             </nav>

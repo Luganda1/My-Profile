@@ -34,11 +34,11 @@ const useStyles = makeStyles({
         // className={classes.root}
         className='footers'
     >
-        <BottomNavigationAction  href="#" icon={<AiIcons.AiOutlineInstagram/>} />
-        <BottomNavigationAction  href="#" icon={<AiIcons.AiFillLinkedin/>} />
-        <BottomNavigationAction  href="#" icon={<AiIcons.AiFillFacebook/>} />
-        <BottomNavigationAction  href="#" icon={<AiIcons.AiFillRedditCircle/>} />
-        <BottomNavigationAction  href="#" icon={<AiIcons.AiOutlineGithub/>} />
+        <BottomNavigationAction  href="https://www.instagram.com/t.lugan/" icon={<AiIcons.AiOutlineInstagram/>} />
+        <BottomNavigationAction  href="https://www.linkedin.com/in/tonny-luganda-7087b451/" icon={<FaIcons.FaLinkedinIn/>} />
+        <BottomNavigationAction  href="https://www.facebook.com/tluganda" icon={<AiIcons.AiOutlineFacebook/>} />
+        <BottomNavigationAction  href="https://www.reddit.com/tonnytonny1" icon={<AiIcons.AiFillRedditCircle/>} />
+        <BottomNavigationAction  href="https://github.com/Luganda1" icon={<AiIcons.AiOutlineGithub/>} />
 
     </BottomNavigation>
     );

@@ -30,27 +30,27 @@
 
 .insta:hover {
     color: #8a3ab9 ;
-    transform: scale(0.96);
+    transform: scale(1.2);
     
 }
 .linked:hover {
     color: #0077B5 ;
-    transform: scale(0.96);
+    transform: scale(1.2);
     
 }
 .facebook:hover {
     color: #4868AD ;
-    transform: scale(0.96);
+    transform: scale(1.2);
     
 }
-.rebbit:hover {
+.reddit:hover {
     color: #ff2f00 ;
-    transform: scale(0.96);
+    transform: scale(1.2);
     
 }
 .github:hover {
     color: #4F4F4F ;
-    transform: scale(0.96);
+    transform: scale(1.2);
     /* scale: ; */
     
 }
