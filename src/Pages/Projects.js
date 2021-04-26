@@ -90,6 +90,10 @@ export default function Projects() {
                 </div>
                 </section>
                 </div>
+                <div className="ads-footer">
+                <script data-ad-client="ca-pub-4911792193482419" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                </div>
+
             </>
 
         )

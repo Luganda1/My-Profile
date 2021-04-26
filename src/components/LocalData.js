@@ -52,7 +52,7 @@
             "id": "8",
             "title": "Cocktail ",
             "image": "/cocktail1.jpg",
-            "url": "https://react-hooks-cocktail-project-1111.netlify.app",
+            "url": "https://react-hooks-cocktail-project-1111.netlify.ap",
             "description": "Reactjs, SCSS ",
             },
         {

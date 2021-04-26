@@ -411,7 +411,7 @@ Cocktail
 
 .cocktail:hover {
   box-shadow: var(--darkShadow);
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 .img-container {
   padding: .5rem;
@@ -580,8 +580,12 @@ Cocktail
   margin-left: 50%;
   margin-top: 50px;
 
+  
 }
-
+.cocktail:hover {
+  box-shadow: var(--darkShadow);
+  transform: scale(1.2);
+}
   .cta {
     margin-left: 360px;
 
@@ -602,6 +606,10 @@ Cocktail
   margin-left: 50%;
   margin-top: 50px;
 
+}
+.cocktail:hover {
+  box-shadow: var(--darkShadow);
+  transform: scale(1.2);
 }
 
   .cta {
