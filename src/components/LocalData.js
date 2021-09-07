@@ -7,12 +7,13 @@
         "description": "Reactjs, SCSS, Contentful ",
         },
         {
-        "id": "2",
-        "title": "Github User",
-        "image": "/github1.jpg",
-        "url": "https://github-user-1111.netlify.app",
-        "description": "Reactjs, SCSS, Auth0 ",
-        },
+            "id": "2",
+            "title": "Vine Store",
+            "image": "quote.jpg",
+            "url": "https://www.vinestylebrand.com/",
+            "description": "Shopify",
+            },
+        
         {
             "id": "3",
             "title": "Team Profile",
@@ -62,6 +63,30 @@
         "url": "https://react-todo-list-1111.netlify.app",
         "description": "Reactjs",
         },
+        
+        {
+        "id": "10",
+        "title": "Coffee Shop Wifi",
+        "image": "todo1.jpg",
+        "url": "",
+        "description": "python",
+        },
+        
+        {
+        "id": "11",
+        "title": "city Tour",
+        "image": "quote.jpg",
+        "url": "https://citytourblog.herokuapp.com",
+        "description": "python, Flask, Sqlite",
+        },
+        
+        {
+            "id": "12",
+            "title": "Github User",
+            "image": "/github1.jpg",
+            "url": "https://github-user-1111.netlify.app",
+            "description": "Reactjs, SCSS, Auth0 ",
+            },
         
     ];
     
